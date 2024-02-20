@@ -1,0 +1,43 @@
+.App {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('bg.png');
+}
+
+.content-box {
+  background: white;
+  padding: 40px;
+  border-radius: 25px; /* Adjust for desired roundness */
+  text-align: center;
+  max-width: 400px; /* Adjust based on your preference */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better contrast */
+}
+
+.content-box h1 {
+  margin: 0;
+  padding-bottom: 20px; /* Adjust spacing as needed */
+  font-size: 2em; /* Adjust text size as needed */
+}
+
+.content-box p {
+  margin: 0;
+  padding-bottom: 20px; /* Adjust spacing as needed */
+  font-size: 1.5em; /* Adjust text size as needed */
+}
+
+.content-box button {
+  background:white; /* Adjust button color as needed */
+  color: black;
+  
+  padding: 10px 20px;
+  border-radius: 10px; /* Adjust for desired roundness */
+  font-size: 1em; /* Adjust text size as needed */
+  cursor: pointer;
+  border-color: black;
+  
+}
+
